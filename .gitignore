@@ -23,3 +23,5 @@ screenshots/private/
 .vscode/
 node_modules/
 kindle-ai-quota-dashboard-main.zip
+config/weather.json
+config/quote.json
