@@ -1,0 +1,61 @@
+window.DASH_DATA = {
+  "updatedAt": "2026-07-31T22:00:05.709+08:00",
+  "weather": {
+    "ok": true,
+    "description": "Patchy rain nearby",
+    "iconKey": "rain",
+    "tempC": 26,
+    "feelsLikeC": 28,
+    "humidity": 81,
+    "windKph": 12,
+    "windDir": "东南偏东",
+    "place": "Guangzhou",
+    "observedAt": "2026-07-31T14:00:05.159+08:00",
+    "fetchedAt": "2026-07-31T22:00:05.709+08:00",
+    "error": null
+  },
+  "quote": null,
+  "sources": {
+    "claude": {
+      "ok": false,
+      "label": "Claude",
+      "windows": [],
+      "fetchedAt": "2026-07-31T22:00:05.345+08:00",
+      "error": "未启用",
+      "disabled": true
+    },
+    "codex": {
+      "ok": false,
+      "label": "Codex",
+      "windows": [],
+      "fetchedAt": "2026-07-31T22:00:05.346+08:00",
+      "error": "未启用",
+      "disabled": true
+    },
+    "kimi": {
+      "ok": true,
+      "label": "Kimi",
+      "windows": [
+        {
+          "name": "5小时",
+          "usedPct": 0,
+          "usedTokens": 0,
+          "limitTokens": 100,
+          "model": null,
+          "resetAt": "2026-07-31T23:40:13.155+08:00"
+        }
+      ],
+      "fetchedAt": "2026-07-31T22:00:05.346+08:00",
+      "error": null
+    },
+    "deepseek": {
+      "ok": true,
+      "label": "DeepSeek",
+      "balance": 6.81,
+      "currency": "CNY",
+      "detail": "余额 ¥6.81",
+      "fetchedAt": "2026-07-31T22:00:05.400+08:00",
+      "error": null
+    }
+  }
+};
